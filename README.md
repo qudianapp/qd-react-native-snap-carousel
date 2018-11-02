@@ -1,5 +1,5 @@
 
-# react-native-webviewplus
+# @qudian_mobile/qd-react-native-snap-carousel
 
 ## Getting started
 
