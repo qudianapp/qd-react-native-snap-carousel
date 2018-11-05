@@ -30,10 +30,10 @@ export default class QDCarousel extends Component {
         containerHeight: PropTypes.number.isRequired,
         bannerList: PropTypes.array.isRequired,
         bannerPress: PropTypes.func,
-        pageIndicatorStyle: PropTypes.object,
-        pageActiveIndicatorStyle: PropTypes.object,
-        pageInactiveIndicatorStyle: PropTypes.object,
-        carouselItemStyle: PropTypes.object.isRequired,
+        pageIndicatorStyle: PropTypes.number,
+        pageActiveIndicatorStyle: PropTypes.number,
+        pageInactiveIndicatorStyle: PropTypes.number,
+        carouselItemStyle: PropTypes.number.isRequired,
     }
 
     static defaultProps = {
